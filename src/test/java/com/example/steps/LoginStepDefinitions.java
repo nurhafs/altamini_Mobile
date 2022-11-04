@@ -13,7 +13,7 @@ public class LoginStepDefinitions {
 
     @When("I open login page")
     public void iOpenLoginPage() {
-        loginPage.openLoginPage();
+        loginPage.clickLogIcon();
     }
 
     @Then("login page id displayed")
@@ -23,7 +23,7 @@ public class LoginStepDefinitions {
 
     @Given("I am in login page")
     public void iAmInLoginPage() {
-        loginPage.openLoginPage();
+        loginPage.clickLogIcon();
     }
 
     @When("I input {string} email")
@@ -44,7 +44,7 @@ public class LoginStepDefinitions {
     @Then("I get {string}")
     public void iGet(String arg0) {
         if (arg0.equals("logged in")) {
-
+            loginPage.mainPageDisplayed();
         } else if (arg0.equals("invalid error")){
             loginPage.invalidError();
         } else if (arg0.equals("password error")) {

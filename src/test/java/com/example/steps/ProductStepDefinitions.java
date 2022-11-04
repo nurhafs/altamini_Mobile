@@ -10,7 +10,7 @@ public class ProductStepDefinitions {
     @Steps
     ProductPage productPage;
 
-    @Given("I have opened the main page")
+    @Given("I am in main page")
     public void iHaveOpenedTheMainPage() {
         productPage.displayed();
     }

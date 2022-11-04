@@ -9,8 +9,6 @@ public class ProductPage extends BasePageObject {
 
     private By buyBtn = By.xpath("(//android.widget.Button[@content-desc=\"Beli\"])[1]");
 
-    private By loginIcon = By.xpath("//android.view.View/android.view.View[1]/android.widget.Button");
-
     private By cartQty;
 
     public void displayed() {
@@ -19,10 +17,6 @@ public class ProductPage extends BasePageObject {
 
     public void clickBuy() {
         click(buyBtn);
-    }
-
-    public void openLoginPage() {
-        click(loginIcon);
     }
 
     public void checkCartQty(int num) {

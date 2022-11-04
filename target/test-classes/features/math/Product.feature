@@ -5,6 +5,6 @@ Feature: Add Product to Cart
   So I can buy the product
 
   Scenario: Add Product to Cart
-    Given I have opened the main page
+    Given I am in main page
     When I click buy on one of the products
     Then My cart is filled

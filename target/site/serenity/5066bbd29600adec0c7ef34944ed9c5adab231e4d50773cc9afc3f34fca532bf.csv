@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Open Login Page","SUCCESS","2022-11-04T20:05:23.1638674+07:00[Asia/Jakarta]","0.0","17.2"
+"Login","Login with username and password","SUCCESS","2022-11-04T20:05:40.4090355+07:00[Asia/Jakarta]","0.0","103.73"

@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 public class LoginPage extends BasePageObject {
     private By loginHeader = By.xpath("//android.view.View[@content-desc=\"Login\"]");
 
+    private By productsHeader = MobileBy.AccessibilityId("Products");
+
     private By loginIcon = By.xpath("//android.view.View/android.view.View[1]/android.widget.Button");
 
     private By loginBtn = By.xpath("//android.widget.Button[@content-desc=\"Login\"]");
@@ -20,7 +22,7 @@ public class LoginPage extends BasePageObject {
     private By passwordEmpty = MobileBy.AccessibilityId("password can not empty");
 
     private By invalidPopUp = MobileBy.AccessibilityId("Email atau password tidak valid.");
-    public void openLoginPage() { click(loginIcon); }
+    public void clickLogIcon() { click(loginIcon); }
 
     public void displayed() { isDisplayed(loginHeader); }
 
@@ -43,5 +45,7 @@ public class LoginPage extends BasePageObject {
     public void passwordEmptyError() { isDisplayed(passwordEmpty); }
 
     public void invalidError() { isDisplayed(invalidPopUp); }
+
+    public void mainPageDisplayed() { isDisplayed(productsHeader); }
 
 }

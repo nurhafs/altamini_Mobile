@@ -3,7 +3,8 @@ Feature: Login
   I want to login
   So I can use the website
 
-  Scenario: Show Login Page
+  Scenario: Open Login Page
+    Given I am in main page
     When I open login page
     Then login page id displayed
 

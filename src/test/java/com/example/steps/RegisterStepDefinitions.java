@@ -2,6 +2,7 @@ package com.example.steps;
 
 import com.example.app.pages.RegisterPage;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
@@ -72,10 +73,13 @@ public class RegisterStepDefinitions {
             registerPage.emailEmptyError();
         } else if (arg0.equals("password")) {
             registerPage.passwordEmptyError();
+        } else if (arg0.equals("failed")) {
+            registerPage.failedError();
         } else {//empty form
             registerPage.fullnameEmptyError();
             registerPage.emailEmptyError();
             registerPage.passwordEmptyError();
         }
     }
+
 }

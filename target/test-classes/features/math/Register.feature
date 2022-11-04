@@ -1,3 +1,4 @@
+@Register
 Feature: Register
   As a new user
   I want to register
@@ -28,4 +29,5 @@ Feature: Register
       |        | simail@mail.com| mmail | fullname |
       | Sisimail |               | mmail |   email  |
       | Sisimail | simail@mail.com |      | password |
+      | Thaur Noh | thaur@mail.com | thaurn | failed |
       |        |                |      | empty |
