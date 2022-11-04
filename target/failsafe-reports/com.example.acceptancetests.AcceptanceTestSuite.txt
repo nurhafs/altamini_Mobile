@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.acceptancetests.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 355.883 s - in com.example.acceptancetests.AcceptanceTestSuite
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 321.244 s - in com.example.acceptancetests.AcceptanceTestSuite

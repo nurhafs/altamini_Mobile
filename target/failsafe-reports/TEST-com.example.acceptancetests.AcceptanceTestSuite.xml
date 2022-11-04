@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.example.acceptancetests.AcceptanceTestSuite" time="355.883" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.example.acceptancetests.AcceptanceTestSuite" time="321.244" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\ASUS\AppData\Local\Temp\surefire10563399049146770393 2022-11-04T20-17-28_543-jvmRun1 surefire8371968281411692797tmp surefire_017330934115249644735tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\ASUS\AppData\Local\Temp\surefire2070421119313721096 2022-11-04T21-37-17_620-jvmRun1 surefire9740923983451022644tmp surefire_013521061401828857938tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ASUS\Desktop\stupen\miniproject\Mobile\altaShopMobile\target\test-classes;C:\Users\ASUS\.m2\repository\io\appium\java-client\7.6.0\java-client-7.6.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ASUS\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\ASUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\ASUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\ASUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-jcl\5.3.10\spring-jcl-5.3.10.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\ASUS\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-core\2.3.2\serenity-core-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.1\byte-buddy-agent-1.10.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ASUS\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ASUS\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ASUS\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ASUS\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\ASUS\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-core\6.6.0\cucumber-core-6.6.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin\6.6.0\cucumber-gherkin-6.6.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.6.0\cucumber-gherkin-messages-6.6.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-plugin\6.6.0\cucumber-plugin-6.6.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\docstring\6.6.0\docstring-6.6.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\create-meta\2.0.1\create-meta-2.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-java\6.6.0\cucumber-java-6.6.0.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\ASUS\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\ASUS\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ASUS\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-report-resources\2.3.2\serenity-report-resources-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-model\2.3.2\serenity-model-2.3.2.jar;C:\Users\ASUS\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\ASUS\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\ASUS\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\ASUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports\2.3.2\serenity-reports-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-stats\2.3.2\serenity-stats-2.3.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ASUS\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\ASUS\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ASUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\ASUS\.m2\repository\com\assertthat\selenium-shutterbug\0.9.3\selenium-shutterbug-0.9.3.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\ASUS\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\ASUS\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.37.0\htmlunit-driver-2.37.0.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-context-support\5.1.2.RELEASE\spring-context-support-5.1.2.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\2.5.5\groovy-2.5.5.jar;C:\Users\ASUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\ASUS\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;C:\Users\ASUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\ASUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ASUS\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\ASUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.37.0\htmlunit-2.37.0.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.37.0\htmlunit-core-js-2.37.0.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.37.0\neko-htmlunit-2.37.0.jar;C:\Users\ASUS\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\ASUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.26.v20200117\websocket-client-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-client\9.4.26.v20200117\jetty-client-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-http\9.4.26.v20200117\jetty-http-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.26.v20200117\jetty-xml-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-util\9.4.26.v20200117\jetty-util-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-io\9.4.26.v20200117\jetty-io-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.26.v20200117\websocket-common-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.26.v20200117\websocket-api-9.4.26.v20200117.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\ASUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\ASUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\ASUS\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\ASUS\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\ASUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\ASUS\.m2\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;C:\Users\ASUS\.m2\repository\org\glassfish\web\javax.el\2.2.4\javax.el-2.2.4.jar;C:\Users\ASUS\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ASUS\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ASUS\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ASUS\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\ASUS\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\ASUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\ASUS\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay\2.3.2\serenity-screenplay-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.3.2\serenity-screenplay-webdriver-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-ensure\2.3.2\serenity-ensure-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-junit\2.3.2\serenity-junit-2.3.2.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.31\kotlin-stdlib-1.3.31.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.31\kotlin-stdlib-common-1.3.31.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-assertions\2.3.2\serenity-assertions-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.3.2\serenity-screenplay-rest-2.3.2.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.3.2\serenity-rest-assured-2.3.2.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\ASUS\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.5\groovy-xml-2.5.5.jar;C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\2.5.5\groovy-json-2.5.5.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.3.2\serenity-cucumber6-2.3.2.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-junit\6.6.0\cucumber-junit-6.6.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\ASUS\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\ASUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\Users\ASUS\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="Open Login Page" classname="Login" time="19.499">
+  <testcase name="Open Login Page" classname="Login" time="16.128">
     <system-out><![CDATA[
 Scenario: Open Login Page      &amp#27;[90m# src/test/resources/features/Login.feature:6&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in main page&amp#27;[0m      &amp#27;[90m# com.example.steps.ProductStepDefinitions.iHaveOpenedTheMainPage()&amp#27;[0m
@@ -102,7 +102,7 @@ Scenario: Open Login Page      &amp#27;[90m# src/test/resources/features/Login.f
 
 Open Login Page(login;open-login-page)
 -------------------------------------------------------------------
-Nov 04, 2022 8:17:48 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:37:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -116,7 +116,7 @@ Open Login Page
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Login with username and password #1" classname="Login" time="25.099">
+  <testcase name="Login with username and password #1" classname="Login" time="20.92">
     <system-out><![CDATA[
 Scenario Outline: Login with username and password &amp#27;[90m# src/test/resources/features/Login.feature:20&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in login page&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iAmInLoginPage()&amp#27;[0m
@@ -136,7 +136,7 @@ Scenario Outline: Login with username and password &amp#27;[90m# src/test/resour
 
 Login with username and password(login;login-with-username-and-password)
 -------------------------------------------------------------------
-Nov 04, 2022 8:18:10 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:37:52 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -150,7 +150,7 @@ Login with username and password
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Login with username and password #2" classname="Login" time="21.161">
+  <testcase name="Login with username and password #2" classname="Login" time="19.752">
     <system-out><![CDATA[
 Scenario Outline: Login with username and password &amp#27;[90m# src/test/resources/features/Login.feature:21&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in login page&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iAmInLoginPage()&amp#27;[0m
@@ -161,7 +161,7 @@ Scenario Outline: Login with username and password &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:18:31 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:38:11 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -175,7 +175,7 @@ Login with username and password
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Login with username and password #3" classname="Login" time="29.326">
+  <testcase name="Login with username and password #3" classname="Login" time="18.599">
     <system-out><![CDATA[
 Scenario Outline: Login with username and password &amp#27;[90m# src/test/resources/features/Login.feature:22&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in login page&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iAmInLoginPage()&amp#27;[0m
@@ -186,11 +186,11 @@ Scenario Outline: Login with username and password &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:19:00 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:38:33 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login with username and password #4" classname="Login" time="20.673">
+  <testcase name="Login with username and password #4" classname="Login" time="17.162">
     <system-out><![CDATA[
 Scenario Outline: Login with username and password &amp#27;[90m# src/test/resources/features/Login.feature:23&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in login page&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iAmInLoginPage()&amp#27;[0m
@@ -201,13 +201,28 @@ Scenario Outline: Login with username and password &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:19:24 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:38:50 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login with username and password #5" classname="Login" time="19.11">
+  <testcase name="Login with username and password #5" classname="Login" time="19.032">
     <system-out><![CDATA[
 Scenario Outline: Login with username and password &amp#27;[90m# src/test/resources/features/Login.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in login page&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iAmInLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI input &amp#27;[0m&amp#27;[32m&amp#27;[1m"naevis@mail.com"&amp#27;[0m&amp#27;[32m email&amp#27;[0m             &amp#27;[90m# com.example.steps.LoginStepDefinitions.iInputEmail(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI input &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass"&amp#27;[0m&amp#27;[32m password&amp#27;[0m                      &amp#27;[90m# com.example.steps.LoginStepDefinitions.iInputPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click login button&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iClickLoginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid error"&amp#27;[0m                       &amp#27;[90m# com.example.steps.LoginStepDefinitions.iGet(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Nov 04, 2022 9:39:07 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login with username and password #6" classname="Login" time="15.803">
+    <system-out><![CDATA[
+Scenario Outline: Login with username and password &amp#27;[90m# src/test/resources/features/Login.feature:25&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in login page&amp#27;[0m                         &amp#27;[90m# com.example.steps.LoginStepDefinitions.iAmInLoginPage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI input &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m email&amp#27;[0m                            &amp#27;[90m# com.example.steps.LoginStepDefinitions.iInputEmail(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI input &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m password&amp#27;[0m                          &amp#27;[90m# com.example.steps.LoginStepDefinitions.iInputPassword(java.lang.String)&amp#27;[0m
@@ -216,11 +231,11 @@ Scenario Outline: Login with username and password &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:19:41 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:39:25 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Logout" classname="Logout" time="56.166">
+  <testcase name="Logout" classname="Logout" time="31.732">
     <system-out><![CDATA[
 Scenario: Logout                      &amp#27;[90m# src/test/resources/features/Logout.feature:6&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the website&amp#27;[0m &amp#27;[90m# com.example.steps.LogoutStepDefinitions.iAmLoggedInToTheWebsite()&amp#27;[0m
@@ -238,7 +253,7 @@ Scenario: Logout                      &amp#27;[90m# src/test/resources/features/
 
 Logout(logout;logout)
 -------------------------------------------------------------------
-Nov 04, 2022 8:20:13 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:39:42 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -252,7 +267,7 @@ Logout
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Add Product to Cart" classname="Add Product to Cart" time="17.269">
+  <testcase name="Add Product to Cart" classname="Add Product to Cart" time="17.082">
     <system-out><![CDATA[
 @Product
 Scenario: Add Product to Cart             &amp#27;[90m# src/test/resources/features/Product.feature:7&amp#27;[0m
@@ -271,7 +286,7 @@ Scenario: Add Product to Cart             &amp#27;[90m# src/test/resources/featu
 
 Add Product to Cart(add-product-to-cart;add-product-to-cart)
 -------------------------------------------------------------------
-Nov 04, 2022 8:20:57 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:40:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -285,7 +300,7 @@ Add Product to Cart
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Open Register Page" classname="Register" time="14.529">
+  <testcase name="Open Register Page" classname="Register" time="13.783">
     <system-out><![CDATA[
 @Register
 Scenario: Open Register Page      &amp#27;[90m# src/test/resources/features/Register.feature:7&amp#27;[0m
@@ -303,7 +318,7 @@ Scenario: Open Register Page      &amp#27;[90m# src/test/resources/features/Regi
 
 Open Register Page(register;open-register-page)
 -------------------------------------------------------------------
-Nov 04, 2022 8:21:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:40:30 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -317,7 +332,7 @@ Open Register Page
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Register with new email" classname="Register" time="23.382">
+  <testcase name="Register with new email" classname="Register" time="21.961">
     <system-out><![CDATA[
 @Register
 Scenario: Register with new email   &amp#27;[90m# src/test/resources/features/Register.feature:11&amp#27;[0m
@@ -339,7 +354,7 @@ Scenario: Register with new email   &amp#27;[90m# src/test/resources/features/Re
 
 Register with new email(register;register-with-new-email)
 -------------------------------------------------------------------
-Nov 04, 2022 8:21:30 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:40:44 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -353,7 +368,7 @@ Register with new email
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Register with username and email #1" classname="Register" time="19.711">
+  <testcase name="Register with username and email #1" classname="Register" time="21.682">
     <system-out><![CDATA[
 @Register
 Scenario Outline: Register with username and email &amp#27;[90m# src/test/resources/features/Register.feature:29&amp#27;[0m
@@ -375,7 +390,7 @@ Scenario Outline: Register with username and email &amp#27;[90m# src/test/resour
 
 Register with username and email(register;register-with-username-and-email)
 -------------------------------------------------------------------
-Nov 04, 2022 8:21:51 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:41:06 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -389,7 +404,7 @@ Register with username and email
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Register with username and email #2" classname="Register" time="21.502">
+  <testcase name="Register with username and email #2" classname="Register" time="20.409">
     <system-out><![CDATA[
 @Register
 Scenario Outline: Register with username and email &amp#27;[90m# src/test/resources/features/Register.feature:30&amp#27;[0m
@@ -402,7 +417,7 @@ Scenario Outline: Register with username and email &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:22:13 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:41:28 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -416,7 +431,7 @@ Register with username and email
 ----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Register with username and email #3" classname="Register" time="19.188">
+  <testcase name="Register with username and email #3" classname="Register" time="19.473">
     <system-out><![CDATA[
 @Register
 Scenario Outline: Register with username and email &amp#27;[90m# src/test/resources/features/Register.feature:31&amp#27;[0m
@@ -429,11 +444,11 @@ Scenario Outline: Register with username and email &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:22:32 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:41:48 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Register with username and email #4" classname="Register" time="23.603">
+  <testcase name="Register with username and email #4" classname="Register" time="25.604">
     <system-out><![CDATA[
 @Register
 Scenario Outline: Register with username and email &amp#27;[90m# src/test/resources/features/Register.feature:32&amp#27;[0m
@@ -446,11 +461,11 @@ Scenario Outline: Register with username and email &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:22:52 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:42:08 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Register with username and email #5" classname="Register" time="20.889">
+  <testcase name="Register with username and email #5" classname="Register" time="18.419">
     <system-out><![CDATA[
 @Register
 Scenario Outline: Register with username and email &amp#27;[90m# src/test/resources/features/Register.feature:33&amp#27;[0m
@@ -463,7 +478,7 @@ Scenario Outline: Register with username and email &amp#27;[90m# src/test/resour
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/ASUS/Desktop/stupen/miniproject/Mobile/altaShopMobile/src/test/resources/features/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-Nov 04, 2022 8:23:16 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Nov 04, 2022 9:42:32 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

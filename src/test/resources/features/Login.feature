@@ -21,4 +21,5 @@ Feature: Login
       |  thaur@mail.com | pinto | invalid error |
       |  user@mail.com  |       | password error   |
       |                 | nxxxae | email error |
+      | naevis@mail.com | pass | invalid error |
       |                 |      | all error |

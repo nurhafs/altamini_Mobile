@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login" skipped="0" tests="6" time="134.3" timestamp="2022-11-04 08:17:34"><testcase name="Open Login Page"/><testcase name="Login with username and password"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login" skipped="0" tests="7" time="127.02" timestamp="2022-11-04 09:37:23"><testcase name="Open Login Page"/><testcase name="Login with username and password"/></testsuite>
