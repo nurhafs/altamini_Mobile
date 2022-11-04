@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Register","Open Register Page","SUCCESS","2022-11-04T20:08:10.6036781+07:00[Asia/Jakarta]","0.0","16.65"
-"Register","Register with new email","SUCCESS","2022-11-04T20:08:27.2657268+07:00[Asia/Jakarta]","0.0","23.27"
-"Register","Register with username and email","SUCCESS","2022-11-04T20:08:50.5598072+07:00[Asia/Jakarta]","0.0","111.46"
+"Register","Open Register Page","SUCCESS","2022-11-04T20:21:02.8507492+07:00[Asia/Jakarta]","0.0","14.51"
+"Register","Register with new email","SUCCESS","2022-11-04T20:21:17.3728512+07:00[Asia/Jakarta]","0.0","23.37"
+"Register","Register with username and email","SUCCESS","2022-11-04T20:21:40.7793033+07:00[Asia/Jakarta]","0.0","104.86"

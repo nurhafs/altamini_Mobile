@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Open Login Page","SUCCESS","2022-11-04T20:05:23.1638674+07:00[Asia/Jakarta]","0.0","17.2"
-"Login","Login with username and password","SUCCESS","2022-11-04T20:05:40.4090355+07:00[Asia/Jakarta]","0.0","103.73"
-"Logout","Logout","SUCCESS","2022-11-04T20:07:24.1474149+07:00[Asia/Jakarta]","0.0","24.11"
-"Add Product to Cart","Add Product to Cart","SUCCESS","2022-11-04T20:07:48.2708599+07:00[Asia/Jakarta]","0.0","22.29"
-"Register","Open Register Page","SUCCESS","2022-11-04T20:08:10.6036781+07:00[Asia/Jakarta]","0.0","16.65"
-"Register","Register with new email","SUCCESS","2022-11-04T20:08:27.2657268+07:00[Asia/Jakarta]","0.0","23.27"
-"Register","Register with username and email","SUCCESS","2022-11-04T20:08:50.5598072+07:00[Asia/Jakarta]","0.0","111.46"
